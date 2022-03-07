@@ -1,23 +1,24 @@
 {
-  "name": "fireship-extension",
-	"displayName": "fireship-extension",
+	"name": "fireship-extension",
+	"displayName": "Fireship Paste",
 	"description": "An extension to help you paste code like the youtube channel fireship.",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.65.0"
 	},
+	"publisher": "HarryHopkinson",
 	"categories": [
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:fireship-extension.helloWorld"
+		"onCommand:fireship-extension.fireship-extension"
 	],
 	"main": "./dist/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "fireship-extension.helloWorld",
-				"title": "Hello World"
+				"command": "fireship-extension.fireship-extension",
+				"title": "Fireship Paste"
 			}
 		]
 	},
